@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Ordinary's Skincare</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="icon" type="image/png" href="assets/images/logo.png">
+    </head>
+    <body>
+        <div class="banner">
+            <video autoplay loop muted playsinline>
+                <source src="assets/media/skincare.mp4" type="video/mp4">
+            </video>
+            <!--NAVIGATION BAR-->
+            <div class="navbar">
+                <h2 class="title">The Ordinary</h2>
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="citations.html">Citations</a></li>
+                </ul>
+              </div>
+                 <div class="content">
+                     <h2>TRY OUR NEWEST RANGE OF SKINCARE</h2>
+                 <div>
+                    <a class="button" href="#img-1">Buy Now</a> 
+              </div>
+            </div>
+        </div>
+        <!--GRID-->
+        <div class="grid-container">
+            <div class="grid-item-skincare">
+                <img id="img-1" src="assets/images/1.png" alt="Image 1">
+                <h3> The Antioxidant Collection </h3>
+                <button class="read-more-btn">Learn More</button>
+            </div>
+            <div class="grid-item-skincare">
+                <img id="img-2" src="assets/images/2.png" alt="Image 2">
+                <h3>The Smooth Skin Collection </h3>
+                <button class="read-more-btn">Learn More</button>
+            </div> 
+            <div class="grid-item-skincare">
+                <img id="img-3" src="assets/images/3.png" alt="Image 3">
+                <h3>The Uneven Skin Tone Collection </h3>
+                <button class="read-more-btn">Learn More</button>
+            </div>
+        </div>    
+            <div class="video-flex ">
+                <!-- THIS SECTION IS REFRENCED FROM YOUTUBE EMBED -->
+                <iframe width="1100" height="650" src="https://www.youtube.com/embed/4fnrqHWLS_U?si=c6OyzENtRA4aPfos" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        <div class="form">
+            <h2>Tell us what we can do better!</h2>
+                <form action="/submit_form" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="read-more-btn" type="submit">Submit</button>
+                    </div>
+                </form>
+        </div>
+        <!--Footer-->     
+            <footer>
+                <p class="copyrights">&copy; Copyright 2023  All rights reserved</p>
+            </footer>
+    </body>
+</html>
